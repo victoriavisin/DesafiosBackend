@@ -18,7 +18,7 @@ app.get('/menu', (request, response) => {
 
 
 
-app.get('/alumnos', (request, response) => {
+app.get('/products', (request, response) => {
     const id = request.query.id 
     const products = [
         { id: 1, name: "Alfajor", price: 150, description: "Alfajor simple de chocolate y relleno con dulce de leche", thumbnail:"https://res.cloudinary.com/dyxviqtpy/image/upload/v1679930638/alfajor_wclwfw.jpg", code:"dsjdsi", stock: 50 },
